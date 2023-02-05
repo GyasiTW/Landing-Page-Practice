@@ -1,0 +1,55 @@
+    .Topt {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 20px;
+    
+    }
+
+    .Links{
+        display:flex;
+        color: white;
+    }
+
+    .Logo {
+        font-size: 25px;
+        color: white;
+    }
+
+    ul {
+        display: flex; 
+        list-style-type: none;
+        gap: 20px;
+        padding-right: 20px;
+        color: white;
+      }
+
+    .header {
+        background: #1f2937;
+    }
+
+    .HText {
+        align-self: center;
+        color: white;
+    }
+
+    button {
+        background: blue;
+        border-radius: 25px;
+    }
+    .HBot {
+        display: flex;
+        align-self: center;
+        padding-bottom: 35px;
+        margin: 50px;
+        gap: 30px;
+    }
+
+    img {
+        height: 200px;
+        width:450px;
+        margin-bottom: 50px;
+    }
+
+    
+    
