@@ -3,8 +3,11 @@
         justify-content: space-around;
         flex-direction: row;
         padding-top: 20px;
-    
-    }
+        }
+
+    html {
+   
+        }
 
     .Links{
         display:flex;
@@ -13,7 +16,8 @@
 
     .Logo {
         font-size: 25px;
-        color: white;
+        color: #f9faf8;
+        
     }
 
     ul {
@@ -26,16 +30,25 @@
 
     .header {
         background: #1f2937;
+        width: 100%;
+    }
+
+    .subText{
+        font-size: 18px;
     }
 
     .HText {
         align-self: center;
         color: white;
+        font-size: 48px;
+        font-weight: bolder;
     }
 
     button {
-        background: blue;
-        border-radius: 25px;
+        font-size: 25px;
+        background: #3882f6;
+        border-radius: 5px;
+        color: white;
     }
     .HBot {
         display: flex;
@@ -45,11 +58,86 @@
         gap: 30px;
     }
 
-    img {
-        height: 200px;
-        width:450px;
-        margin-bottom: 50px;
+    .pandaResidents{
+        width: 200px;
+        height: 187px;
+        border: 7px solid  #1f2937;
+        border-radius: 10px;
+    }
+    
+    .infoText{ 
+        display: flex;
+        justify-content: center;
+        font-size: 36px;
+        font-weight: bolder;
     }
 
+    .residentsText{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
     
-    
+    .info{
+        max-width: 200px;
+    }
+
+    .wInfo{
+        margin: 75px;
+    }
+
+    .quote{
+        display: flex;
+        color: #1f2937;
+        font-size: 36px;
+        background-color: #e5e7eb;
+        padding: 70px;
+        flex-direction: column;
+    }
+
+    .qText{
+        display: flex;
+        max-width: 1000px;
+        align-self: center;
+    }
+
+    .someone{
+        display: flex;
+        font-weight: bold;
+        font-size: 18px;
+        justify-content: flex-end;
+        margin-left: 200px;
+        max-width: 1200px;
+    }
+
+    .call{
+        display:flex;
+        color: white;
+        gap: 200px;
+        margin-top: 55px;
+        margin-bottom: 55px;
+        background-color: #3882f6;
+        padding: 30px;
+    }
+
+    .toAction{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cT{
+        font-size: 25px;
+    }
+
+    .signUp{
+        display: flex;
+        font-size: 25px;
+        border-radius: 10px;
+        border: white solid 3px;
+        align-content: flex-end;
+    }
+
+    .too{
+        display:flex;
+        justify-content: center;
+    }
